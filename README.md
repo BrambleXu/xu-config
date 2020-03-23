@@ -1,10 +1,10 @@
-# zsh和oh-my-zsh的设置
+# 1 zsh和oh-my-zsh的设置
 
-## 1 Ubuntu & CentOS
+## 1.1 Ubuntu & CentOS
 
 Ubuntu & CentOS的安装和设置默认shell的方法：[How to Setup ZSH and Oh-my-zsh on Linux](https://www.howtoforge.com/tutorial/how-to-setup-zsh-and-oh-my-zsh-on-linux/#step-install-and-configure-zsh)
 
-## 2 MacOS
+## 1.2 MacOS
 
 首先安装zsh
 
@@ -23,9 +23,9 @@ Ubuntu & CentOS的安装和设置默认shell的方法：[How to Setup ZSH and Oh
 或者用wget安装：
 `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 
-# .zshrc的配置
+# 2 `.zshrc`的配置
 
-## Theme
+## 2.1 Theme
 
 不使用powerline theme了，太麻烦，不方便在远程配置。
 
