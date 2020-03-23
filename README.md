@@ -16,7 +16,7 @@ Ubuntu & CentOS的安装和设置默认shell的方法：[How to Setup ZSH and Oh
 
 退出zsh界面，重新登录。
 
-[详细的可以看官网](https://github.com/robbyrussell/oh-my-zsh)
+[详细的可以看官网](https://github.com/robbyrussell/oh-my-zsh), [Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
 不想看官网的可以直接输入下面的命令安装：
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
