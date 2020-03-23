@@ -25,6 +25,11 @@ Ubuntu & CentOS的安装和设置默认shell的方法：[How to Setup ZSH and Oh
 
 # 2 `.zshrc`的配置
 
+```
+git clone https://github.com/BrambleXu/xu-config
+cp
+```
+
 ## 2.1 Theme
 
 不使用powerline theme了，太麻烦，不方便在远程配置。
@@ -33,6 +38,29 @@ Ubuntu & CentOS的安装和设置默认shell的方法：[How to Setup ZSH and Oh
 ZSH_THEME="avit"
 ```
 
-然后在命令行输入下面命令使.zshrc中的内容生效
-`source ~/.zshrc`
+## 2.2 Plugin
 
+快捷键：
+
+- git：
+- tmux：
+
+实用命令：
+
+- extract：
+- z：
+- gitignore：
+- zsh_reload：
+
+需要下载的：
+
+- git-open：
+- zsh-autosuggestions：
+- zsh-completions：
+- zsh-syntax-highlighting：
+
+
+
+# 参考资料
+
+- [simple zshrc config file with Oh-My-ZSH](https://gist.github.com/veggiemonk/f7dc67b05400905973e2db050dffd05b): 包含.gitconfig, .zshrc, bootstrap.sh
