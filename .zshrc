@@ -6,10 +6,8 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="avit"
 
 # Plugin
-plugins=(git tmux z )
+plugins=(git tmux extract z gitignore zsh_reload git-open)
 plugins+=(zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
-plugins+=( osx lein node npm jump gulp mosh )
-plugins+=( k z alias-tips almostontop )
 autoload -U compinit && compinit #zsh-completions setting 
 
 # Activate config
